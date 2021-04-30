@@ -16,18 +16,18 @@ public class PrincipalTest {
 
 
     @Test
-    void TestDeleteAccents() {
+    void testDeleteAccents() {
     assertEquals("hola", deleteAccents("hólà"));//testejar si dos valors són iguals
     }
 
     @Test
-    void TestDeleteSpaces() {
+    void testDeleteSpaces() {
         assertEquals("hola", deleteSpaces("ho la"));//testejar si dos valors són iguals
     }
 
     private static final int[] numberToOrder = new int[]{11, 12, 13, 14, 4, 5, 6, 7, 8, 9, 10, 1, 2, 3};
     @Test
-    void TestSortUrlOption1() {
+    void testSortUrlOption1() {
         assertEquals("www.google.com", sortUrlOption1(".com.googlewww".split(""), numberToOrder));//testejar si dos valors són iguals
     }
 

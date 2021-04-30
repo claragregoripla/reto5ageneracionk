@@ -9,8 +9,8 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding><!--abarca molts caràcters-->
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
-        <junit.jupiter.version>5.5.2</junit.jupiter.version>
-        <junit.platform.version>1.5.2</junit.platform.version>
+        <junit.jupiter.version>5.5.2</junit.jupiter.version><!--important-->
+        <junit.platform.version>1.5.2</junit.platform.version><!--important-->
     </properties>
     
     <dependencies>
